@@ -1,0 +1,21 @@
+{
+  "name": "kjscale-apply-api",
+  "version": "1.0.0",
+  "description": "API for KJscale job applications (receives form, sends emails, returns reference)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "kjscaleonline",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.3",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

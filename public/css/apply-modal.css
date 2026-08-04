@@ -1,0 +1,32 @@
+/* public/css/apply-modal.css - basic responsive modal styles */
+.apply-modal { position: fixed; inset: 0; display:none; z-index: 9999; font-family: inherit; }
+.apply-modal[aria-hidden="false"] { display:block; }
+.apply-modal__backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.55); }
+.apply-modal__panel {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.25rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  max-height: 90vh;
+  overflow:auto;
+}
+.apply-modal__close { position: absolute; right: 12px; top: 8px; border: none; background: transparent; font-size: 1.6rem; }
+.apply-modal h2 { margin-top: 0; }
+.apply-form label { display:block; margin-bottom:0.75rem; font-size:0.95rem; }
+.apply-form input, .apply-form textarea {
+  width:100%;
+  padding:0.5rem;
+  border:1px solid #ccc;
+  border-radius:4px;
+  box-sizing:border-box;
+  font-size:1rem;
+}
+.apply-form__actions { margin-top:1rem; display:flex; gap:.5rem; justify-content:flex-end;}
+@media (min-width: 720px) {
+  .apply-modal__panel { padding:1.5rem 2rem; }
+}
