@@ -1,505 +1,315 @@
-<!doctype html>
-<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"B","B":"20260803-23-fdd629a","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,0","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHO2EIdDP0,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YADy3sAhvXQ,0","Oleo Script":"YACgEQQ14jI,0","Playfair Display":"YAFdJhem5V8,1","Poppins":"YAE5fPSY9qM,0","Press Start 2P":"YAFyGr-8pmQ,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/7949ff62d67710d5.telemetry_sdk.js" integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KJScale — Coming Soon</title>
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ink: #ecf7ff;
-      --muted: #9db3c6;
-      --line: rgba(177, 218, 241, 0.18);
-      --blue: #50b5f7;
-      --deep: #06192c;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KJScale | Outsourcing & Remote Staffing Solutions</title>
 
-    * { box-sizing: border-box; }
+    <meta name="description" content="KJScale connects businesses with skilled remote professionals including Social Media Managers, Video Editors, Graphic Designers, Virtual Assistants, Customer Service Representatives, and Digital Advertisers.">
 
-    body {
-      margin: 0;
-      width: 100%;
-      font-family: "DM Sans", sans-serif;
-      color: var(--ink);
-      overflow-x: hidden;
-    }
+    <meta name="keywords" content="outsourcing, remote staffing, virtual assistant, customer support, social media manager, video editor, graphic designer">
 
-    .app-shell {
-      width: 100%;
-      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
-      position: relative;
-      overflow: hidden;
-      background:
-        radial-gradient(circle at 82% 15%, rgba(42, 136, 194, 0.22), transparent 30rem),
-        radial-gradient(circle at 6% 85%, rgba(11, 108, 162, 0.18), transparent 27rem);
-    }
+</head>
 
-    .app-shell::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-      opacity: 0.34;
-      background-image: linear-gradient(rgba(134, 195, 229, 0.08) 1px, transparent 1px),
-                        linear-gradient(90deg, rgba(134, 195, 229, 0.08) 1px, transparent 1px);
-      background-size: 48px 48px;
-      mask-image: linear-gradient(to bottom, black, transparent 72%);
-    }
+<body>
 
-    .site-content {
-      width: 100%;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 28px 42px 34px;
-      position: relative;
-      z-index: 1;
-    }
+    <!-- ================= HEADER ================= -->
 
-    .brand-mark {
-      width: 34px;
-      height: 34px;
-      display: inline-grid;
-      place-items: center;
-      border: 1px solid rgba(126, 207, 255, 0.75);
-      border-radius: 10px;
-      color: #92d8ff;
-      box-shadow: inset 0 0 16px rgba(80, 181, 247, 0.18);
-    }
+    <header>
 
-    .hero-title {
-      font-family: "Fraunces", serif;
-      letter-spacing: -0.055em;
-      line-height: 0.98;
-    }
+        <nav>
 
-    .hero-photo-wrap {
-      position: relative;
-      min-height: 445px;
-      border: 1px solid var(--line);
-      overflow: hidden;
-      border-radius: 26px;
-      box-shadow: 0 26px 80px rgba(0, 0, 0, 0.28);
-    }
+            <div class="logo">
+                <h2>KJScale</h2>
+            </div>
 
-    .hero-photo-wrap::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(145deg, rgba(4, 20, 37, 0.12), rgba(4, 20, 37, 0.72));
-      pointer-events: none;
-    }
+            <ul>
 
-    .photo-label {
-      position: absolute;
-      z-index: 2;
-      left: 22px;
-      right: 22px;
-      bottom: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding-top: 14px;
-      border-top: 1px solid rgba(255, 255, 255, 0.28);
-    }
+                <li><a href="#about">About</a></li>
 
-    .glass-card {
-      border: 1px solid var(--line);
-      background: rgba(8, 35, 57, 0.7);
-      backdrop-filter: blur(12px);
-      border-radius: 18px;
-    }
+                <li><a href="#services">Services</a></li>
 
-    .service-card {
-      border: 1px solid var(--line);
-      background: rgba(8, 35, 57, 0.53);
-      min-height: 150px;
-      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
-    }
+                <li><a href="#why">Why KJScale</a></li>
 
-    .service-card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(117, 208, 255, 0.65);
-      background: rgba(13, 52, 80, 0.82);
-    }
+                <li><a href="#careers">Careers</a></li>
 
-    .service-icon {
-      width: 38px;
-      height: 38px;
-      display: grid;
-      place-items: center;
-      border-radius: 10px;
-      background: rgba(80, 181, 247, 0.12);
-      color: #82d1ff;
-    }
+                <li><a href="#contact">Contact</a></li>
 
-    .reveal {
-      animation: rise 700ms both ease-out;
-    }
+            </ul>
 
-    .delay-1 { animation-delay: 100ms; }
-    .delay-2 { animation-delay: 200ms; }
-    .delay-3 { animation-delay: 300ms; }
+        </nav>
 
-    @keyframes rise {
-      from { opacity: 0; transform: translateY(18px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    a:focus-visible {
-      outline: 3px solid #8ed8ff;
-      outline-offset: 4px;
-    }
-
-    @media (max-width: 720px) {
-      .site-content { padding: 22px 20px 28px; }
-      .hero-photo-wrap { min-height: 330px; }
-    }
-  </style>
-  <script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" type="text/javascript" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script>
-  <script src="/_sdk/04cc6185e046f597.resizing_sdk.js" type="text/javascript" integrity="sha512-CiE/G92aQF0nxneFg1kdOvXih8sQ1Z2a2QI3+r/WvzJwQqH6+IyB3iL07OkJmpm3ABAaf07+FnqWny98f5sR6w=="></script>
- </head>
- <body data-template-id="__page-root" style="background: rgb(6, 25, 44);">
-  <div class="app-shell">
-   <div class="site-content">
-    <header class="flex items-center justify-between gap-4 border-b border-sky-100/15 pb-5" aria-label="Site header">
-     <div class="flex items-center gap-3"><span class="brand-mark" aria-hidden="true"><i data-lucide="move-up-right" style="width:18px;height:18px"></i></span> <span data-template-id="brand-name" class="canva-text text-lg font-bold tracking-tight" style="color: rgb(236, 247, 255); font-weight: 700; font-style: normal; font-size: 20px;">KJScale</span>
-     </div>
-     <nav aria-label="External navigation"><a data-template-id="website-link" class="canva-link inline-flex items-center gap-2 rounded-full border border-sky-100/20 px-4 py-2 text-sm font-semibold transition hover:border-sky-200/60 hover:bg-sky-100/10" href="https://kjscale.com" target="_blank" rel="noopener noreferrer" style="background: rgba(8, 35, 57, 0.3); color: rgb(216, 242, 255); font-weight: 600; font-style: normal; font-size: 16px;">kjscale.com</a>
-     </nav>
     </header>
-    <main>
-     <section class="grid items-center gap-10 py-12 lg:grid-cols-[1.05fr_.95fr] lg:py-16" aria-labelledby="hero-heading">
-      <div class="reveal">
-       <div data-template-id="launch-tag" class="canva-tag mb-6 inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-bold uppercase tracking-[0.15em]" style="background: rgba(80, 181, 247, 0.12); color: rgb(146, 216, 255); font-weight: 700; font-style: normal; font-size: 16px;">Launching November 2026</div>
-       <h1 id="hero-heading" data-template-id="hero-title" class="canva-text hero-title max-w-2xl text-5xl font-semibold sm:text-6xl lg:text-7xl" style="color: rgb(244, 251, 255); font-weight: 700; font-style: normal; font-size: 32px; line-height: 1;">Remote talent, ready to scale what’s next.</h1>
-       <p data-template-id="hero-description" class="canva-text mt-7 max-w-xl text-lg leading-8 sm:text-xl" style="color: rgb(195, 215, 229); font-weight: 400; font-style: normal; font-size: 19px; line-height: 1.6;">KJScale is opening this November 2026. We are building and refining every detail of our platform to create a seamless experience for both our clients and our remote professionals.</p>
-       <div class="mt-9 flex flex-wrap items-center gap-4"><a data-template-id="career-button" class="canva-button inline-flex items-center gap-2 rounded-xl px-5 py-3.5 font-bold shadow-lg transition hover:-translate-y-0.5" href="mailto:careers@kjscale.online" target="_blank" rel="noopener noreferrer" style="background: rgb(80, 181, 247); color: rgb(6, 32, 57); font-weight: 700; font-style: normal; font-size: 16px;">Send your resume</a>
-        <p data-template-id="career-note" class="canva-text max-w-xs text-sm leading-6" style="color: rgb(169, 193, 209); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Interested in joining our team? Send your resume to careers@kjscale.online.</p>
-       </div>
-      </div>
-      <div class="hero-photo-wrap reveal delay-2"><img data-template-id="hero-image" class="canva-image absolute inset-0 h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/1181745/pexels-photo-1181745.jpeg" alt="From above of diverse employees gathering at table in contemporary conference hall and having video call with coworker on TV set">
-       <div class="photo-label">
-        <div>
-         <p data-template-id="photo-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.17em]" style="color: rgb(223, 245, 255); font-weight: 700; font-style: normal; font-size: 16px;">Built for growth</p>
-         <p data-template-id="photo-caption" class="canva-text mt-1 text-sm" style="color: rgb(255, 255, 255); font-weight: 500; font-style: normal; font-size: 16px;">Dedicated people. Scalable support.</p>
-        </div><i data-lucide="users-round" class="text-white" style="width:28px;height:28px" aria-hidden="true"></i>
-       </div>
-      </div>
-     </section>
-     <section class="grid gap-6 lg:grid-cols-[.9fr_1.1fr]" aria-label="About KJScale">
-      <article data-template-id="about-card" class="canva-card glass-card reveal delay-1 p-7 sm:p-8" style="background: rgba(8, 35, 57, 0.7);">
-       <p data-template-id="about-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.18em]" style="color: rgb(126, 207, 255); font-weight: 700; font-style: normal; font-size: 16px;">About KJScale</p>
-       <h2 data-template-id="about-title" class="canva-text mt-3 font-semibold" style="color: rgb(240, 249, 255); font-weight: 600; font-style: normal; font-size: 24px;">A global partner for focused, flexible work.</h2>
-       <p data-template-id="about-copy" class="canva-text mt-5 leading-7" style="color: rgb(183, 204, 218); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">KJScale is a business process outsourcing and remote staffing company connecting businesses worldwide with cost-effective, highly qualified digital professionals. We help ambitious teams grow their operations while reducing recruitment and labor costs.</p>
-      </article>
-      <aside data-template-id="mission-card" class="canva-panel glass-card reveal delay-2 p-7 sm:p-8" style="background: rgba(8, 35, 57, 0.7);">
-       <div class="flex items-start gap-4"><span class="service-icon shrink-0" aria-hidden="true"><i data-lucide="sparkles" style="width:19px;height:19px"></i></span>
-        <div>
-         <p data-template-id="mission-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.18em]" style="color: rgb(126, 207, 255); font-weight: 700; font-style: normal; font-size: 16px;">Our mission</p>
-         <h2 data-template-id="mission-title" class="canva-text mt-2 font-semibold" style="color: rgb(240, 249, 255); font-weight: 600; font-style: normal; font-size: 24px;">Quality talent should be within reach.</h2>
-         <p data-template-id="mission-copy" class="canva-text mt-4 leading-7" style="color: rgb(183, 204, 218); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">We make skilled remote talent accessible to startups, SMBs, and growing enterprises through flexible staffing solutions that never compromise on professionalism, expertise, or long-term partnership.</p>
-        </div>
-       </div>
-      </aside>
-     </section>
-     <section class="pt-14" aria-labelledby="services-heading">
-      <div class="mb-7 flex flex-wrap items-end justify-between gap-3">
-       <div>
-        <p data-template-id="services-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.18em]" style="color: rgb(126, 207, 255); font-weight: 700; font-style: normal; font-size: 16px;">What we outsource</p>
-        <h2 id="services-heading" data-template-id="services-title" class="canva-text mt-2 font-semibold" style="color: rgb(240, 249, 255); font-weight: 600; font-style: normal; font-size: 24px;">Specialist support for every moving part.</h2>
-       </div>
-       <p data-template-id="services-note" class="canva-text text-sm" style="color: rgb(157, 179, 198); font-weight: 400; font-style: normal; font-size: 16px;">Digital expertise, matched to your business.</p>
-      </div>
-      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-       <article data-template-id="service-card-1" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="megaphone" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-1" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Social Media Management</h3>
-       </article>
-       <article data-template-id="service-card-2" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="clapperboard" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-2" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Video Editing</h3>
-       </article>
-       <article data-template-id="service-card-3" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="mouse-pointer-click" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-3" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Digital Advertising</h3>
-       </article>
-       <article data-template-id="service-card-4" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="palette" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-4" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Graphic Design</h3>
-       </article>
-       <article data-template-id="service-card-5" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="calendar-check-2" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-5" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Virtual Assistance</h3>
-       </article>
-       <article data-template-id="service-card-6" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="headphones" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-6" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Customer Service Representatives</h3>
-       </article>
-       <article data-template-id="service-card-7" class="canva-card service-card rounded-2xl p-5 sm:col-span-2" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="network" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-7" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Remote Talent Outsourcing</h3>
-       </article>
-      </div>
-     </section>
-    </main>
-    <footer class="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-sky-100/15 pt-6">
-     <p data-template-id="footer-industry" class="canva-text text-sm" style="color: rgb(157, 179, 198); font-weight: 400; font-style: normal; font-size: 16px;">BPO · Remote Staffing · Customer Support · Digital Marketing</p>
-     <p data-template-id="footer-rights" class="canva-text text-sm" style="color: rgb(157, 179, 198); font-weight: 400; font-style: normal; font-size: 16px;">© 2026 KJScale. Building for better work.</p>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="hero">
+
+        <small>Business Process Outsourcing • Remote Staffing</small>
+
+        <h1>
+            Scale Your Business
+            With Skilled Remote Professionals
+        </h1>
+
+        <p>
+
+            KJScale helps businesses reduce hiring costs while gaining access to experienced professionals in customer service, digital marketing, creative services, and business support.
+
+        </p>
+
+        <a href="#">Book a Free Consultation</a>
+
+        <a href="#">Join Our Team</a>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2>About KJScale</h2>
+
+        <p>
+
+            KJScale is a Business Process Outsourcing (BPO) and Remote Staffing company dedicated to helping businesses grow by providing highly skilled professionals at competitive rates.
+
+        </p>
+
+        <p>
+
+            We connect startups, entrepreneurs, agencies, and growing companies with experienced remote talents who become an extension of their team.
+
+        </p>
+
+    </section>
+
+    <!-- ================= NAME STORY ================= -->
+
+    <section id="story">
+
+        <h2>The Meaning Behind KJScale</h2>
+
+        <p>
+
+            <strong>KJ</strong> represents our founder,
+            <strong>Kit Jasper</strong>,
+            symbolizing leadership, dedication, and trust.
+
+        </p>
+
+        <p>
+
+            <strong>Scale</strong> represents our mission—to help businesses scale faster through world-class outsourcing solutions while creating meaningful career opportunities for talented professionals.
+
+        </p>
+
+        <p>
+
+            Together, KJScale represents our commitment to helping businesses and people grow together.
+
+        </p>
+
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+
+    <section id="services">
+
+        <h2>Our Expertise</h2>
+
+        <article>
+
+            <h3>Social Media Managers</h3>
+
+            <p>Build stronger online communities and increase engagement.</p>
+
+        </article>
+
+        <article>
+
+            <h3>Video Editors</h3>
+
+            <p>Create professional videos for marketing and branding.</p>
+
+        </article>
+
+        <article>
+
+            <h3>Graphic Designers</h3>
+
+            <p>Creative visuals that strengthen your business identity.</p>
+
+        </article>
+
+        <article>
+
+            <h3>Customer Service Representatives</h3>
+
+            <p>Deliver exceptional customer experiences across multiple channels.</p>
+
+        </article>
+
+        <article>
+
+            <h3>Virtual Assistants</h3>
+
+            <p>Reliable administrative support to maximize productivity.</p>
+
+        </article>
+
+        <article>
+
+            <h3>Digital Advertisers</h3>
+
+            <p>Generate qualified leads using strategic advertising campaigns.</p>
+
+        </article>
+
+    </section>
+
+    <!-- ================= WHY ================= -->
+
+    <section id="why">
+
+        <h2>Why Businesses Choose KJScale</h2>
+
+        <ul>
+
+            <li>Reduce operational costs</li>
+
+            <li>Access pre-qualified professionals</li>
+
+            <li>Flexible staffing solutions</li>
+
+            <li>Fast recruitment process</li>
+
+            <li>Dedicated remote professionals</li>
+
+            <li>Long-term business partnerships</li>
+
+        </ul>
+
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+
+    <section>
+
+        <h2>How It Works</h2>
+
+        <ol>
+
+            <li>
+
+                <strong>Tell Us Your Needs</strong>
+
+                <p>Share your business goals and staffing requirements.</p>
+
+            </li>
+
+            <li>
+
+                <strong>We Find the Right Talent</strong>
+
+                <p>Our recruitment team sources the best professionals.</p>
+
+            </li>
+
+            <li>
+
+                <strong>Interview Candidates</strong>
+
+                <p>Select the people that fit your business culture.</p>
+
+            </li>
+
+            <li>
+
+                <strong>Start Scaling</strong>
+
+                <p>Your remote team is ready to work.</p>
+
+            </li>
+
+        </ol>
+
+    </section>
+
+    <!-- ================= CAREERS ================= -->
+
+    <section id="careers">
+
+        <h2>Work With KJScale</h2>
+
+        <p>
+
+            We're continuously looking for talented professionals who are passionate about helping businesses succeed.
+
+        </p>
+
+        <h3>Current Opportunities</h3>
+
+        <ul>
+
+            <li>Customer Service Representative</li>
+
+            <li>Social Media Manager</li>
+
+            <li>Video Editor</li>
+
+            <li>Graphic Designer</li>
+
+            <li>Virtual Assistant</li>
+
+            <li>Digital Advertiser</li>
+
+        </ul>
+
+        <a href="#">Apply Now</a>
+
+    </section>
+
+    <!-- ================= CTA ================= -->
+
+    <section>
+
+        <h2>Ready to Scale?</h2>
+
+        <p>
+
+            Whether you're looking for reliable remote professionals or searching for your next career opportunity, KJScale is here to help.
+
+        </p>
+
+        <a href="#">Get Started Today</a>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: hello@kjscale.com</p>
+
+        <p>Website: https://kjscale.com</p>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 KJScale.
+            Helping Businesses Scale Through Exceptional Remote Talent.
+
+        </p>
+
     </footer>
-   </div>
-  </div>
-  <script src="/_sdk/493c75da57365e07.editing_sdk.js" integrity="sha512-bMyHxLnOu1LL6g5gya2Ge0Bke7bi8xHXRZ+rA+qPKo9sdTsnnZEvmhGWtq7tlLKTo/OSolHMUXwm403pFYM4tg=="></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      lucide.createIcons();
-    });
-  </script>
- 
-</body></html><!doctype html>
-<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"B","B":"20260803-23-fdd629a","C":{"Abril Fatface":"YACgEZbkUVE,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Bebas Neue":"YACgESME5ew,0","Broken Glyph":"YADZ-exUkv0,0","Canva Sans":"YAFdJjTk5UU,0","Caveat":"YALBs2ploWQ,0","Comic Sans MS":"YAHO2VMiyZo,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAEul-FRQw4,0","Georgia":"YAGzXkO0pEM,0","Ghost Mono":"YAHO2EIdDP0,0","Helvetica Neue":"YAFcf6CtJfI,0","Impact":"YAFcfnjI7Vk,0","Inter":"YAFdJvSyp_k,3","Iowan Old Style":"YAGNIFa8j9o,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YADy3sAhvXQ,0","Oleo Script":"YACgEQQ14jI,0","Playfair Display":"YAFdJhem5V8,1","Poppins":"YAE5fPSY9qM,0","Press Start 2P":"YAFyGr-8pmQ,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Times New Roman":"YAGzXW3gftg,0","Times":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/7949ff62d67710d5.telemetry_sdk.js" integrity="sha512-KIvXA82Di44YY/RH9/63A9MuTuavYgDFG8PfErJn7Wli4K0LAOk+coo/aPXk3+ZNL96nHh9VYD4PE+fLes+laQ=="></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KJScale — Coming Soon</title>
-  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --ink: #ecf7ff;
-      --muted: #9db3c6;
-      --line: rgba(177, 218, 241, 0.18);
-      --blue: #50b5f7;
-      --deep: #06192c;
-    }
 
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      width: 100%;
-      font-family: "DM Sans", sans-serif;
-      color: var(--ink);
-      overflow-x: hidden;
-    }
-
-    .app-shell {
-      width: 100%;
-      min-height: calc(100 * min(var(--vh, 1vh), 1vh));
-      position: relative;
-      overflow: hidden;
-      background:
-        radial-gradient(circle at 82% 15%, rgba(42, 136, 194, 0.22), transparent 30rem),
-        radial-gradient(circle at 6% 85%, rgba(11, 108, 162, 0.18), transparent 27rem);
-    }
-
-    .app-shell::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-      opacity: 0.34;
-      background-image: linear-gradient(rgba(134, 195, 229, 0.08) 1px, transparent 1px),
-                        linear-gradient(90deg, rgba(134, 195, 229, 0.08) 1px, transparent 1px);
-      background-size: 48px 48px;
-      mask-image: linear-gradient(to bottom, black, transparent 72%);
-    }
-
-    .site-content {
-      width: 100%;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 28px 42px 34px;
-      position: relative;
-      z-index: 1;
-    }
-
-    .brand-mark {
-      width: 34px;
-      height: 34px;
-      display: inline-grid;
-      place-items: center;
-      border: 1px solid rgba(126, 207, 255, 0.75);
-      border-radius: 10px;
-      color: #92d8ff;
-      box-shadow: inset 0 0 16px rgba(80, 181, 247, 0.18);
-    }
-
-    .hero-title {
-      font-family: "Fraunces", serif;
-      letter-spacing: -0.055em;
-      line-height: 0.98;
-    }
-
-    .hero-photo-wrap {
-      position: relative;
-      min-height: 445px;
-      border: 1px solid var(--line);
-      overflow: hidden;
-      border-radius: 26px;
-      box-shadow: 0 26px 80px rgba(0, 0, 0, 0.28);
-    }
-
-    .hero-photo-wrap::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(145deg, rgba(4, 20, 37, 0.12), rgba(4, 20, 37, 0.72));
-      pointer-events: none;
-    }
-
-    .photo-label {
-      position: absolute;
-      z-index: 2;
-      left: 22px;
-      right: 22px;
-      bottom: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding-top: 14px;
-      border-top: 1px solid rgba(255, 255, 255, 0.28);
-    }
-
-    .glass-card {
-      border: 1px solid var(--line);
-      background: rgba(8, 35, 57, 0.7);
-      backdrop-filter: blur(12px);
-      border-radius: 18px;
-    }
-
-    .service-card {
-      border: 1px solid var(--line);
-      background: rgba(8, 35, 57, 0.53);
-      min-height: 150px;
-      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
-    }
-
-    .service-card:hover {
-      transform: translateY(-4px);
-      border-color: rgba(117, 208, 255, 0.65);
-      background: rgba(13, 52, 80, 0.82);
-    }
-
-    .service-icon {
-      width: 38px;
-      height: 38px;
-      display: grid;
-      place-items: center;
-      border-radius: 10px;
-      background: rgba(80, 181, 247, 0.12);
-      color: #82d1ff;
-    }
-
-    .reveal {
-      animation: rise 700ms both ease-out;
-    }
-
-    .delay-1 { animation-delay: 100ms; }
-    .delay-2 { animation-delay: 200ms; }
-    .delay-3 { animation-delay: 300ms; }
-
-    @keyframes rise {
-      from { opacity: 0; transform: translateY(18px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    a:focus-visible {
-      outline: 3px solid #8ed8ff;
-      outline-offset: 4px;
-    }
-
-    @media (max-width: 720px) {
-      .site-content { padding: 22px 20px 28px; }
-      .hero-photo-wrap { min-height: 330px; }
-    }
-  </style>
-  <script src="/_sdk/0e8d3a91e1c6f495.data_sdk.js" type="text/javascript" integrity="sha512-c00oDoGjsMgluCLLEyVl3suwEkgjOGGplVFbsilUoBg4aMKNmsL3mwsc9r0dPn95qiSZyjBousQXgROkAW7p/w=="></script>
-  <script src="/_sdk/04cc6185e046f597.resizing_sdk.js" type="text/javascript" integrity="sha512-CiE/G92aQF0nxneFg1kdOvXih8sQ1Z2a2QI3+r/WvzJwQqH6+IyB3iL07OkJmpm3ABAaf07+FnqWny98f5sR6w=="></script>
- </head>
- <body data-template-id="__page-root" style="background: rgb(6, 25, 44);">
-  <div class="app-shell">
-   <div class="site-content">
-    <header class="flex items-center justify-between gap-4 border-b border-sky-100/15 pb-5" aria-label="Site header">
-     <div class="flex items-center gap-3"><span class="brand-mark" aria-hidden="true"><i data-lucide="move-up-right" style="width:18px;height:18px"></i></span> <span data-template-id="brand-name" class="canva-text text-lg font-bold tracking-tight" style="color: rgb(236, 247, 255); font-weight: 700; font-style: normal; font-size: 20px;">KJScale</span>
-     </div>
-     <nav aria-label="External navigation"><a data-template-id="website-link" class="canva-link inline-flex items-center gap-2 rounded-full border border-sky-100/20 px-4 py-2 text-sm font-semibold transition hover:border-sky-200/60 hover:bg-sky-100/10" href="https://kjscale.com" target="_blank" rel="noopener noreferrer" style="background: rgba(8, 35, 57, 0.3); color: rgb(216, 242, 255); font-weight: 600; font-style: normal; font-size: 16px;">kjscale.com</a>
-     </nav>
-    </header>
-    <main>
-     <section class="grid items-center gap-10 py-12 lg:grid-cols-[1.05fr_.95fr] lg:py-16" aria-labelledby="hero-heading">
-      <div class="reveal">
-       <div data-template-id="launch-tag" class="canva-tag mb-6 inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-bold uppercase tracking-[0.15em]" style="background: rgba(80, 181, 247, 0.12); color: rgb(146, 216, 255); font-weight: 700; font-style: normal; font-size: 16px;">Launching November 2026</div>
-       <h1 id="hero-heading" data-template-id="hero-title" class="canva-text hero-title max-w-2xl text-5xl font-semibold sm:text-6xl lg:text-7xl" style="color: rgb(244, 251, 255); font-weight: 700; font-style: normal; font-size: 32px; line-height: 1;">Remote talent, ready to scale what’s next.</h1>
-       <p data-template-id="hero-description" class="canva-text mt-7 max-w-xl text-lg leading-8 sm:text-xl" style="color: rgb(195, 215, 229); font-weight: 400; font-style: normal; font-size: 19px; line-height: 1.6;">KJScale is opening this November 2026. We are building and refining every detail of our platform to create a seamless experience for both our clients and our remote professionals.</p>
-       <div class="mt-9 flex flex-wrap items-center gap-4"><a data-template-id="career-button" class="canva-button inline-flex items-center gap-2 rounded-xl px-5 py-3.5 font-bold shadow-lg transition hover:-translate-y-0.5" href="mailto:careers@kjscale.online" target="_blank" rel="noopener noreferrer" style="background: rgb(80, 181, 247); color: rgb(6, 32, 57); font-weight: 700; font-style: normal; font-size: 16px;">Send your resume</a>
-        <p data-template-id="career-note" class="canva-text max-w-xs text-sm leading-6" style="color: rgb(169, 193, 209); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.5;">Interested in joining our team? Send your resume to careers@kjscale.online.</p>
-       </div>
-      </div>
-      <div class="hero-photo-wrap reveal delay-2"><img data-template-id="hero-image" class="canva-image absolute inset-0 h-full w-full object-cover" loading="lazy" src="https://images.pexels.com/photos/1181745/pexels-photo-1181745.jpeg" alt="From above of diverse employees gathering at table in contemporary conference hall and having video call with coworker on TV set">
-       <div class="photo-label">
-        <div>
-         <p data-template-id="photo-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.17em]" style="color: rgb(223, 245, 255); font-weight: 700; font-style: normal; font-size: 16px;">Built for growth</p>
-         <p data-template-id="photo-caption" class="canva-text mt-1 text-sm" style="color: rgb(255, 255, 255); font-weight: 500; font-style: normal; font-size: 16px;">Dedicated people. Scalable support.</p>
-        </div><i data-lucide="users-round" class="text-white" style="width:28px;height:28px" aria-hidden="true"></i>
-       </div>
-      </div>
-     </section>
-     <section class="grid gap-6 lg:grid-cols-[.9fr_1.1fr]" aria-label="About KJScale">
-      <article data-template-id="about-card" class="canva-card glass-card reveal delay-1 p-7 sm:p-8" style="background: rgba(8, 35, 57, 0.7);">
-       <p data-template-id="about-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.18em]" style="color: rgb(126, 207, 255); font-weight: 700; font-style: normal; font-size: 16px;">About KJScale</p>
-       <h2 data-template-id="about-title" class="canva-text mt-3 font-semibold" style="color: rgb(240, 249, 255); font-weight: 600; font-style: normal; font-size: 24px;">A global partner for focused, flexible work.</h2>
-       <p data-template-id="about-copy" class="canva-text mt-5 leading-7" style="color: rgb(183, 204, 218); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">KJScale is a business process outsourcing and remote staffing company connecting businesses worldwide with cost-effective, highly qualified digital professionals. We help ambitious teams grow their operations while reducing recruitment and labor costs.</p>
-      </article>
-      <aside data-template-id="mission-card" class="canva-panel glass-card reveal delay-2 p-7 sm:p-8" style="background: rgba(8, 35, 57, 0.7);">
-       <div class="flex items-start gap-4"><span class="service-icon shrink-0" aria-hidden="true"><i data-lucide="sparkles" style="width:19px;height:19px"></i></span>
-        <div>
-         <p data-template-id="mission-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.18em]" style="color: rgb(126, 207, 255); font-weight: 700; font-style: normal; font-size: 16px;">Our mission</p>
-         <h2 data-template-id="mission-title" class="canva-text mt-2 font-semibold" style="color: rgb(240, 249, 255); font-weight: 600; font-style: normal; font-size: 24px;">Quality talent should be within reach.</h2>
-         <p data-template-id="mission-copy" class="canva-text mt-4 leading-7" style="color: rgb(183, 204, 218); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.65;">We make skilled remote talent accessible to startups, SMBs, and growing enterprises through flexible staffing solutions that never compromise on professionalism, expertise, or long-term partnership.</p>
-        </div>
-       </div>
-      </aside>
-     </section>
-     <section class="pt-14" aria-labelledby="services-heading">
-      <div class="mb-7 flex flex-wrap items-end justify-between gap-3">
-       <div>
-        <p data-template-id="services-kicker" class="canva-text text-xs font-bold uppercase tracking-[0.18em]" style="color: rgb(126, 207, 255); font-weight: 700; font-style: normal; font-size: 16px;">What we outsource</p>
-        <h2 id="services-heading" data-template-id="services-title" class="canva-text mt-2 font-semibold" style="color: rgb(240, 249, 255); font-weight: 600; font-style: normal; font-size: 24px;">Specialist support for every moving part.</h2>
-       </div>
-       <p data-template-id="services-note" class="canva-text text-sm" style="color: rgb(157, 179, 198); font-weight: 400; font-style: normal; font-size: 16px;">Digital expertise, matched to your business.</p>
-      </div>
-      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-       <article data-template-id="service-card-1" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="megaphone" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-1" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Social Media Management</h3>
-       </article>
-       <article data-template-id="service-card-2" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="clapperboard" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-2" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Video Editing</h3>
-       </article>
-       <article data-template-id="service-card-3" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="mouse-pointer-click" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-3" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Digital Advertising</h3>
-       </article>
-       <article data-template-id="service-card-4" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="palette" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-4" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Graphic Design</h3>
-       </article>
-       <article data-template-id="service-card-5" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="calendar-check-2" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-5" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Virtual Assistance</h3>
-       </article>
-       <article data-template-id="service-card-6" class="canva-card service-card rounded-2xl p-5" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="headphones" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-6" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Customer Service Representatives</h3>
-       </article>
-       <article data-template-id="service-card-7" class="canva-card service-card rounded-2xl p-5 sm:col-span-2" style="background: rgba(8, 35, 57, 0.53);"><span class="service-icon" aria-hidden="true"><i data-lucide="network" style="width:19px;height:19px"></i></span>
-        <h3 data-template-id="service-7" class="canva-text mt-5 font-bold" style="color: rgb(231, 246, 255); font-weight: 700; font-style: normal; font-size: 19px;">Remote Talent Outsourcing</h3>
-       </article>
-      </div>
-     </section>
-    </main>
-    <footer class="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-sky-100/15 pt-6">
-     <p data-template-id="footer-industry" class="canva-text text-sm" style="color: rgb(157, 179, 198); font-weight: 400; font-style: normal; font-size: 16px;">BPO · Remote Staffing · Customer Support · Digital Marketing</p>
-     <p data-template-id="footer-rights" class="canva-text text-sm" style="color: rgb(157, 179, 198); font-weight: 400; font-style: normal; font-size: 16px;">© 2026 KJScale. Building for better work.</p>
-    </footer>
-   </div>
-  </div>
-  <script src="/_sdk/493c75da57365e07.editing_sdk.js" integrity="sha512-bMyHxLnOu1LL6g5gya2Ge0Bke7bi8xHXRZ+rA+qPKo9sdTsnnZEvmhGWtq7tlLKTo/OSolHMUXwm403pFYM4tg=="></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      lucide.createIcons();
-    });
-  </script>
- 
-</body></html>
+</body>
+</html>
