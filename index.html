@@ -3,313 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KJScale | Outsourcing & Remote Staffing Solutions</title>
-
-    <meta name="description" content="KJScale connects businesses with skilled remote professionals including Social Media Managers, Video Editors, Graphic Designers, Virtual Assistants, Customer Service Representatives, and Digital Advertisers.">
-
-    <meta name="keywords" content="outsourcing, remote staffing, virtual assistant, customer support, social media manager, video editor, graphic designer">
-
+    <title>KJscale - Professional Business Solutions</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-    <!-- ================= HEADER ================= -->
-
-    <header>
-
-        <nav>
-
-            <div class="logo">
-                <h2>KJScale</h2>
-            </div>
-
-            <ul>
-
-                <li><a href="#about">About</a></li>
-
-                <li><a href="#services">Services</a></li>
-
-                <li><a href="#why">Why KJScale</a></li>
-
-                <li><a href="#careers">Careers</a></li>
-
-                <li><a href="#contact">Contact</a></li>
-
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">KJscale</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-        </nav>
-
-    </header>
-
-    <!-- ================= HERO ================= -->
-
-    <section id="hero">
-
-        <small>Business Process Outsourcing • Remote Staffing</small>
-
-        <h1>
-            Scale Your Business
-            With Skilled Remote Professionals
-        </h1>
-
-        <p>
-
-            KJScale helps businesses reduce hiring costs while gaining access to experienced professionals in customer service, digital marketing, creative services, and business support.
-
-        </p>
-
-        <a href="#">Book a Free Consultation</a>
-
-        <a href="#">Join Our Team</a>
-
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to KJscale</h1>
+            <p>Your Partner in Growth & Innovation</p>
+            <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started Today</button>
+        </div>
     </section>
 
-    <!-- ================= ABOUT ================= -->
-
-    <section id="about">
-
-        <h2>About KJScale</h2>
-
-        <p>
-
-            KJScale is a Business Process Outsourcing (BPO) and Remote Staffing company dedicated to helping businesses grow by providing highly skilled professionals at competitive rates.
-
-        </p>
-
-        <p>
-
-            We connect startups, entrepreneurs, agencies, and growing companies with experienced remote talents who become an extension of their team.
-
-        </p>
-
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About KJscale</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>KJscale is a leading business solutions company dedicated to helping enterprises scale their operations efficiently and sustainably. With years of industry experience, we provide cutting-edge solutions tailored to meet your unique business needs.</p>
+                    <p>Our mission is to empower businesses with innovative technology and strategic guidance to achieve their growth objectives.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>500+</h3>
+                        <p>Satisfied Clients</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>15+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>50+</h3>
+                        <p>Expert Team Members</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- ================= NAME STORY ================= -->
-
-    <section id="story">
-
-        <h2>The Meaning Behind KJScale</h2>
-
-        <p>
-
-            <strong>KJ</strong> represents our founder,
-            <strong>Kit Jasper</strong>,
-            symbolizing leadership, dedication, and trust.
-
-        </p>
-
-        <p>
-
-            <strong>Scale</strong> represents our mission—to help businesses scale faster through world-class outsourcing solutions while creating meaningful career opportunities for talented professionals.
-
-        </p>
-
-        <p>
-
-            Together, KJScale represents our commitment to helping businesses and people grow together.
-
-        </p>
-
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Business Consulting</h3>
+                    <p>Strategic guidance to help your business scale and optimize operations for maximum efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Digital Solutions</h3>
+                    <p>Custom software and digital transformation services to modernize your business processes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Development</h3>
+                    <p>Native and cross-platform mobile applications designed for your target audience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Security & Compliance</h3>
+                    <p>Comprehensive security solutions ensuring your data and systems remain protected.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎯</div>
+                    <h3>Marketing Strategy</h3>
+                    <p>Data-driven marketing strategies to increase your brand visibility and customer engagement.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Growth Acceleration</h3>
+                    <p>Proven methodologies to accelerate your business growth and market expansion.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- ================= SERVICES ================= -->
-
-    <section id="services">
-
-        <h2>Our Expertise</h2>
-
-        <article>
-
-            <h3>Social Media Managers</h3>
-
-            <p>Build stronger online communities and increase engagement.</p>
-
-        </article>
-
-        <article>
-
-            <h3>Video Editors</h3>
-
-            <p>Create professional videos for marketing and branding.</p>
-
-        </article>
-
-        <article>
-
-            <h3>Graphic Designers</h3>
-
-            <p>Creative visuals that strengthen your business identity.</p>
-
-        </article>
-
-        <article>
-
-            <h3>Customer Service Representatives</h3>
-
-            <p>Deliver exceptional customer experiences across multiple channels.</p>
-
-        </article>
-
-        <article>
-
-            <h3>Virtual Assistants</h3>
-
-            <p>Reliable administrative support to maximize productivity.</p>
-
-        </article>
-
-        <article>
-
-            <h3>Digital Advertisers</h3>
-
-            <p>Generate qualified leads using strategic advertising campaigns.</p>
-
-        </article>
-
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose KJscale?</h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <span class="checkmark">✓</span>
+                    <div>
+                        <h4>Expert Team</h4>
+                        <p>Highly qualified professionals with diverse industry expertise</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="checkmark">✓</span>
+                    <div>
+                        <h4>Proven Track Record</h4>
+                        <p>Successful projects and satisfied clients across multiple industries</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="checkmark">✓</span>
+                    <div>
+                        <h4>24/7 Support</h4>
+                        <p>Round-the-clock customer support to ensure your success</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="checkmark">✓</span>
+                    <div>
+                        <h4>Custom Solutions</h4>
+                        <p>Tailored approaches designed specifically for your business needs</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="checkmark">✓</span>
+                    <div>
+                        <h4>Innovation Focused</h4>
+                        <p>Always staying ahead with latest technologies and methodologies</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <span class="checkmark">✓</span>
+                    <div>
+                        <h4>Cost Effective</h4>
+                        <p>Competitive pricing without compromising on quality and results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!-- ================= WHY ================= -->
-
-    <section id="why">
-
-        <h2>Why Businesses Choose KJScale</h2>
-
-        <ul>
-
-            <li>Reduce operational costs</li>
-
-            <li>Access pre-qualified professionals</li>
-
-            <li>Flexible staffing solutions</li>
-
-            <li>Fast recruitment process</li>
-
-            <li>Dedicated remote professionals</li>
-
-            <li>Long-term business partnerships</li>
-
-        </ul>
-
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">Ready to scale your business? Contact us today for a free consultation.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Company Name" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
     </section>
 
-    <!-- ================= PROCESS ================= -->
-
-    <section>
-
-        <h2>How It Works</h2>
-
-        <ol>
-
-            <li>
-
-                <strong>Tell Us Your Needs</strong>
-
-                <p>Share your business goals and staffing requirements.</p>
-
-            </li>
-
-            <li>
-
-                <strong>We Find the Right Talent</strong>
-
-                <p>Our recruitment team sources the best professionals.</p>
-
-            </li>
-
-            <li>
-
-                <strong>Interview Candidates</strong>
-
-                <p>Select the people that fit your business culture.</p>
-
-            </li>
-
-            <li>
-
-                <strong>Start Scaling</strong>
-
-                <p>Your remote team is ready to work.</p>
-
-            </li>
-
-        </ol>
-
-    </section>
-
-    <!-- ================= CAREERS ================= -->
-
-    <section id="careers">
-
-        <h2>Work With KJScale</h2>
-
-        <p>
-
-            We're continuously looking for talented professionals who are passionate about helping businesses succeed.
-
-        </p>
-
-        <h3>Current Opportunities</h3>
-
-        <ul>
-
-            <li>Customer Service Representative</li>
-
-            <li>Social Media Manager</li>
-
-            <li>Video Editor</li>
-
-            <li>Graphic Designer</li>
-
-            <li>Virtual Assistant</li>
-
-            <li>Digital Advertiser</li>
-
-        </ul>
-
-        <a href="#">Apply Now</a>
-
-    </section>
-
-    <!-- ================= CTA ================= -->
-
-    <section>
-
-        <h2>Ready to Scale?</h2>
-
-        <p>
-
-            Whether you're looking for reliable remote professionals or searching for your next career opportunity, KJScale is here to help.
-
-        </p>
-
-        <a href="#">Get Started Today</a>
-
-    </section>
-
-    <!-- ================= CONTACT ================= -->
-
-    <section id="contact">
-
-        <h2>Contact Us</h2>
-
-        <p>Email: hello@kjscale.com</p>
-
-        <p>Website: https://kjscale.com</p>
-
-    </section>
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer>
-
-        <p>
-
-            © 2026 KJScale.
-            Helping Businesses Scale Through Exceptional Remote Talent.
-
-        </p>
-
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>KJscale</h4>
+                    <p>Empowering businesses to reach their full potential through innovative solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KJscale. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
