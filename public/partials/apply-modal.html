@@ -1,0 +1,32 @@
+<!-- Apply modal partial: include this once in your base layout (e.g. before </body>) -->
+<div id="applyModal" class="apply-modal" aria-hidden="true" role="dialog" aria-labelledby="applyModalTitle">
+  <div class="apply-modal__backdrop" data-close></div>
+  <div class="apply-modal__panel" role="document">
+    <button class="apply-modal__close" aria-label="Close" data-close>&times;</button>
+    <h2 id="applyModalTitle">Apply Now</h2>
+    <p id="applyModalPosition" class="apply-modal__position"></p>
+    <form id="applyForm" class="apply-form" novalidate>
+      <input type="hidden" name="position" id="apply_position" value="">
+      <label>
+        Full name
+        <input name="name" id="apply_name" type="text" required>
+      </label>
+      <label>
+        Email
+        <input name="email" id="apply_email" type="email" required>
+      </label>
+      <label>
+        Phone
+        <input name="phone" id="apply_phone" type="tel">
+      </label>
+      <label>
+        Message / cover note
+        <textarea name="message" id="apply_message" rows="5"></textarea>
+      </label>
+      <div class="apply-form__actions">
+        <button type="submit" id="applySubmit">Submit application</button>
+      </div>
+      <div id="applyStatus" role="status" aria-live="polite" style="display:none"></div>
+    </form>
+  </div>
+</div>
