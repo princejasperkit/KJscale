@@ -1,0 +1,1 @@
+Convert server/server.js into a Vercel serverless function at api/apply.js using nodemailer (SMTP).
